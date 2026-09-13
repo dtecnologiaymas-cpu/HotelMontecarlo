@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    
     <meta charset="UTF-8">
     <!-- Etiquetas para una correcta adaptación a móviles, tablets y escritorio -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -1400,7 +1401,7 @@
     </style>
 </head>
 <body>
-
+  
     <div class="header-wrapper" id="headerWrapper">
         <!-- Intro cinematográfica: 1) lateral  2) exterior  3) interior -->
         <div class="intro-gallery" aria-hidden="true">
@@ -1826,6 +1827,9 @@
                 document.body.classList.add("is-loaded");
             }, 11800);
         });
+    </script>
+    <script>
+        document.addEventListener('contextmenu', event => event.preventDefault());
     </script>
 </body>
 </html>
